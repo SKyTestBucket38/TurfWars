@@ -2,6 +2,9 @@
 
 namespace TurfWars;
 
+use pocketmine\Player;
+use pocketmine\Server;
+
 use pocketmine\event\Listener;
 
 use pocketmine\plugin\PluginBase;
@@ -32,6 +35,7 @@ use pocketmine\block\Block;
 use pocketmine\entity\Arrow;
 use pocketmine\entity\Entity;
 
+use pocketmine\scheduler\Task;
 use pocketmine\scheduler\TaskScheduler;
 
 use pocketmine\nbt\tag\IntTag;
