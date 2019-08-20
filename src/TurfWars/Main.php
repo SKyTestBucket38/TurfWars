@@ -59,7 +59,7 @@ public $games = ["Game1" => ["Arena" => "TW-1", "Status" => "JOINABLE", "RedScor
 
 public function onEnable(){
 $this->getServer()->getPluginManager()->registerEvents($this, $this);
-$this->getServer()->getScheduler()->scheduleRepeatingTask(new Task($this), 20);
+$this->getScheduler()->scheduleRepeatingTask(new Task($this), 20);
  
 
 
