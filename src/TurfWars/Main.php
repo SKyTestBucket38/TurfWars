@@ -32,9 +32,7 @@ use pocketmine\block\Block;
 use pocketmine\entity\Arrow;
 use pocketmine\entity\Entity;
 
-
-
-
+use pocketmine\scheduler\TaskScheduler;
 
 use pocketmine\nbt\tag\IntTag;
 use pocketmine\nbt\tag\CompoundTag;
